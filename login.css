@@ -1,0 +1,29 @@
+#div
+{
+   position: relative;
+   margin: auto;
+   margin-top: 100px;
+   border: 2px solid black;
+   padding: 50px;
+   height: 300px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+.required::before{
+    content: "*";
+    color: red;
+}
+#div button
+{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 15px;
+    
+}
